@@ -4,7 +4,7 @@ import dotenv from "dotenv";
 const getSingleItem = async (id) => {
   dotenv.config();
   const response = await fetch(
-    `${process.env.NEXT_PUBLIC_URL}/api/item/readsingle/${id}`,
+    `http://localhost:3000/api/item/readsingle/${id}`,
     { cache: "no-store" }
   );
   const jsonData = await response.json();
