@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "dotenv": "^16.4.5",
     "jose": "^5.1.1",
     "mongoose": "^8.0.0",
     "next": "14.0.2",
@@ -17,7 +18,6 @@
   },
   "description": "Next.jsバージョン14（Appフォルダ）",
   "main": "middleware.js",
-  "devDependencies": {},
   "author": "",
   "license": "ISC"
 }
